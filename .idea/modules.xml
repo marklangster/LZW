@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LZW Compression.iml" filepath="$PROJECT_DIR$/.idea/modules/LZW Compression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LZW_Compression_main.iml" filepath="$PROJECT_DIR$/.idea/modules/LZW_Compression_main.iml" group="LZW Compression" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LZW_Compression_test.iml" filepath="$PROJECT_DIR$/.idea/modules/LZW_Compression_test.iml" group="LZW Compression" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lzwcompression/lzwcompression.iml" filepath="$PROJECT_DIR$/.idea/modules/lzwcompression/lzwcompression.iml" group="lzwcompression" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lzwcompression/lzwcompression_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lzwcompression/lzwcompression_main.iml" group="lzwcompression" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lzwcompression/lzwcompression_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lzwcompression/lzwcompression_test.iml" group="lzwcompression" />
+    </modules>
+  </component>
+</project>
