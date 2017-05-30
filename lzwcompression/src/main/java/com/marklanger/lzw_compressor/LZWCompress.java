@@ -13,10 +13,12 @@ public class LZWCompress {
     public String main(String input) {
         encoderLibrary = initializeLibrary(); //Giving the encoder A-Z initialization from ASCII values
 
-        Byte librarySize = 26; // Initial size of our HashMap + 1
+        Byte librarySize = 26; // Initial size of our HashMap
 
         StringBuilder previousKeyToCompare = new StringBuilder(); //String to save most recent "found" value
         // in our table.
+
+        checkForValidInput(input); //Check for a valid input
 
         for (int i = 0; i < input.length(); i++) { //For each iteration, we will check if that pattern is found.
             // If it is, we will check the next value. If it is not, we will save the value of the last found pattern to
@@ -36,13 +38,18 @@ public class LZWCompress {
             }
         }
 
-        if (previousKeyToCompare.length() != 0) { //We now need to check if we have missed the end of our input
-            // because the code had no determined if the
-            // If we have, we will add any of the remaining "buffer" to our end result.
+        if (previousKeyToCompare.length() != 0) { //We now need add any missing items at end of our input
+            // that have not been compressed.
 
             addValueToOutput(previousKeyToCompare.toString());
         }
         return encodedOutput.toString();
+    }
+
+    private void checkForValidInput(String input) { //Only checks for null or empty inputs
+        if (input == null || input.length() == 0){
+            throw new IllegalArgumentException("Input was either null or empty");
+        }
     }
 
     private void addValueToOutput(String addCompressedValue) { //Automates the addition of new encoded items to our output

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.marklanger.lzw_compressor.LZWDecompressTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-30T12:33:48" hostname="MacBook-Pro-4.local" time="0.001">
+<testsuite name="com.marklanger.lzw_compressor.LZWDecompressTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-30T13:24:54" hostname="MacBook-Pro-4.local" time="0.001">
   <properties/>
   <testcase name="test" classname="com.marklanger.lzw_compressor.LZWDecompressTest" time="0.001"/>
-  <system-out><![CDATA[ABABYUHABSLKBHJKHJHIUGGGIUGSIXJISJKMINIONCIONOINNKLNLKNLMLKMIOJISIHCUHIJXNZJ]]></system-out>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
