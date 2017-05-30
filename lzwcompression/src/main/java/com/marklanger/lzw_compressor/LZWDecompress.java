@@ -6,10 +6,10 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
 
-public class LZWDecompress {
+class LZWDecompress {
     private static final int ASCII_TABLE_INCREMENT_CONSTANT = 65; //static value used to populate our HashMap
 
-    public String main(String input) {
+    String main(String input) {
         Map<Byte, String> decoderLibrary = initializeLibrary(); //HashMap for storage of values.
         // Since we are now decoding, Bytes will be our key.
         Queue<String> encodedValues = new LinkedList<String>(Arrays.asList(input.split(","))); //I decided to go
@@ -38,7 +38,7 @@ public class LZWDecompress {
                 decompressedOutput.append(decoderLibrary.get(encodedValue));
             } else { //If we do not have the encoded value, we assume the decoder
                 // is a step behind the compresser and we correct.
-                valueStr.append(previouslyCheckedStr + String.valueOf(previouslyCheckedStr.charAt(0)));
+                valueStr.append(previouslyCheckedStr).append(String.valueOf(previouslyCheckedStr.charAt(0)));
                 decompressedOutput.append(valueStr);
             }
             decoderLibrary.put(librarySize, previouslyCheckedStr.toString() + valueStr.charAt(0)); //We add each new

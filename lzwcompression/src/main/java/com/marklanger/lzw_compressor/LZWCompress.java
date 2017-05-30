@@ -3,14 +3,14 @@ package com.marklanger.lzw_compressor;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LZWCompress {
+class LZWCompress {
     private static final int ASCII_TABLE_INCREMENT_CONSTANT = 65; //static value used to populate our HashMap
     // with ASCII table values.
 
-    Map<String, Byte> encoderLibrary; //HashMap for storage. Since we are encoding, the String value is our key.
-    StringBuilder encodedOutput = new StringBuilder(); //Output String
+    private Map<String, Byte> encoderLibrary; //HashMap for storage. Since we are encoding, the String value is our key.
+    private StringBuilder encodedOutput = new StringBuilder(); //Output String
 
-    public String main(String input) {
+    String main(String input) {
         encoderLibrary = initializeLibrary(); //Giving the encoder A-Z initialization from ASCII values
 
         Byte librarySize = 26; // Initial size of our HashMap
@@ -25,7 +25,7 @@ public class LZWCompress {
             // our output and save the new pattern to our table.
 
             StringBuilder keyToCompare = new StringBuilder();
-            keyToCompare.append(previousKeyToCompare.toString() + input.charAt(i));
+            keyToCompare.append(previousKeyToCompare.toString()).append(input.charAt(i));
 
             if (encoderLibrary.containsKey(keyToCompare.toString())) {
                 previousKeyToCompare = keyToCompare;

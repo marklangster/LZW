@@ -6,10 +6,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LZWFullCompressionTest {
-    LZWCompress lzwCompress;
-    LZWDecompress lzwDecompress;
-    String input[];
-    String fail[];
+    private LZWCompress lzwCompress;
+    private LZWDecompress lzwDecompress;
+    private String input[];
+    private String fail[];
 
     @Before
     public void setUp() {
@@ -27,20 +27,70 @@ public class LZWFullCompressionTest {
     }
 
     @Test
-    public void test() {
-        for (String tests : input) {
-            lzwCompress = new LZWCompress();
-            lzwDecompress = new LZWDecompress();
-            System.out.print(tests + "\n");
-            String compressedOutput = lzwCompress.main(tests);
-            String decompressedOutput = lzwDecompress.main(compressedOutput);
-            System.out.print(decompressedOutput + "\n");
-            System.out.print("Output matches input: " + String.valueOf(decompressedOutput.matches(tests)) + "\n\n");
+    public void test1() {
+        lzwCompress = new LZWCompress();
+        lzwDecompress = new LZWDecompress();
+        System.out.print(input[0] + "\n");
+        String compressedOutput = lzwCompress.main(input[0]);
+        String decompressedOutput = lzwDecompress.main(compressedOutput);
+        System.out.print(decompressedOutput + "\n");
+        System.out.print("Output matches input: " + String.valueOf(decompressedOutput.matches(input[0])) + "\n\n");
 
-            assertEquals(tests, lzwDecompress.main(compressedOutput));
-        }
-
+        assertEquals(input[0], lzwDecompress.main(compressedOutput));
     }
+
+    @Test
+    public void test2() {
+        lzwCompress = new LZWCompress();
+        lzwDecompress = new LZWDecompress();
+        System.out.print(input[1] + "\n");
+        String compressedOutput = lzwCompress.main(input[1]);
+        String decompressedOutput = lzwDecompress.main(compressedOutput);
+        System.out.print(decompressedOutput + "\n");
+        System.out.print("Output matches input: " + String.valueOf(decompressedOutput.matches(input[1])) + "\n\n");
+
+        assertEquals(input[1], lzwDecompress.main(compressedOutput));
+    }
+
+    @Test
+    public void test3() {
+        lzwCompress = new LZWCompress();
+        lzwDecompress = new LZWDecompress();
+        System.out.print(input[2] + "\n");
+        String compressedOutput = lzwCompress.main(input[2]);
+        String decompressedOutput = lzwDecompress.main(compressedOutput);
+        System.out.print(decompressedOutput + "\n");
+        System.out.print("Output matches input: " + String.valueOf(decompressedOutput.matches(input[2])) + "\n\n");
+
+        assertEquals(input[2], lzwDecompress.main(compressedOutput));
+    }
+
+    @Test
+    public void test4() {
+        lzwCompress = new LZWCompress();
+        lzwDecompress = new LZWDecompress();
+        System.out.print(input[3] + "\n");
+        String compressedOutput = lzwCompress.main(input[3]);
+        String decompressedOutput = lzwDecompress.main(compressedOutput);
+        System.out.print(decompressedOutput + "\n");
+        System.out.print("Output matches input: " + String.valueOf(decompressedOutput.matches(input[3])) + "\n\n");
+
+        assertEquals(input[3], lzwDecompress.main(compressedOutput));
+    }
+
+    @Test
+    public void test5() {
+        lzwCompress = new LZWCompress();
+        lzwDecompress = new LZWDecompress();
+        System.out.print(input[4] + "\n");
+        String compressedOutput = lzwCompress.main(input[4]);
+        String decompressedOutput = lzwDecompress.main(compressedOutput);
+        System.out.print(decompressedOutput + "\n");
+        System.out.print("Output matches input: " + String.valueOf(decompressedOutput.matches(input[4])) + "\n\n");
+
+        assertEquals(input[4], lzwDecompress.main(compressedOutput));
+    }
+
 
     @Test(expected = IllegalArgumentException.class)
     public void fails() {
