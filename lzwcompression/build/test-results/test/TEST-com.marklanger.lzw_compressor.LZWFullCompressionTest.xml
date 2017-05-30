@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.marklanger.lzw_compressor.LZWFullCompressionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-30T12:06:30" hostname="MacBook-Pro-4.local" time="0.002">
+<testsuite name="com.marklanger.lzw_compressor.LZWFullCompressionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-30T12:33:48" hostname="MacBook-Pro-4.local" time="0.006">
   <properties/>
-  <testcase name="test" classname="com.marklanger.lzw_compressor.LZWFullCompressionTest" time="0.002"/>
+  <testcase name="test" classname="com.marklanger.lzw_compressor.LZWFullCompressionTest" time="0.006"/>
   <system-out><![CDATA[ABABYUHABSLKBHJKHJHIUGGGIUGSIXJISJKMINIONCIONOINNKLNLKNLMLKMIOJISIHCUHIJXNZJ
 ABABYUHABSLKBHJKHJHIUGGGIUGSIXJISJKMINIONCIONOINNKLNLKNLMLKMIOJISIHCUHIJXNZJ
+Output matches input: trueTHEFLYINGDUTCHMAN
+THEFLYINGDUTCHMAN
+Output matches input: trueMARYPOPPINSANDTHESUPERCALIFRAGILISTEPEALODOCIOUSDAY
+MARYPOPPINSANDTHESUPERCALIFRAGILISTEPEALODOCIOUSDAY
+Output matches input: trueNOWTHISISASTORYALLABOUTHOWMYLIFEGOTFLIPPEDTURNEDUPSIDEDOWNANDIDLIKETOTAKEAMINUTEJUSTSITRIGHTTHEREILLTELLYOUHOWIBECAMETHEPRINCEOFATOWNCALLEDBELAIR
+NOWTHISISASTORYALLABOUTHOWMYLIFEGOTFLIPPEDTURNEDUPSIDEDOWNANDIDLIKETOTAKEAMINUTEJUSTSITRIGHTTHEREILLTELLYOUHOWIBECAMETHEPRINCEOFATOWNCALLEDBELAIR
 Output matches input: true]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

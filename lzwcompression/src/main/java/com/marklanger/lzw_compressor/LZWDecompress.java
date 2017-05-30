@@ -7,13 +7,13 @@ import java.util.Map;
 import java.util.Queue;
 
 public class LZWDecompress {
-    private static final int ASCII_TABLE_INCREMENT_CONSTANT = 65;
+    private static final int ASCII_TABLE_INCREMENT_CONSTANT = 65; //static value used to populate our HashMap
 
     public String main(String input) {
         Map<Byte, String> decoderLibrary = initializeLibrary();
         Queue<String> encodedValues = new LinkedList<String>(Arrays.asList(input.split(",")));
         StringBuilder decompressedOutput = new StringBuilder();
-        StringBuilder previouslyCheckedStr = new StringBuilder(decoderLibrary.get(Byte.parseByte(encodedValues.poll())));
+        StringBuilder previouslyCheckedStr = new StringBuilder(decoderLibrary.get(Byte.parseByte(encodedValues.poll(), 2)));
         decompressedOutput.append(previouslyCheckedStr);
         Byte librarySize = 26;
         while (!encodedValues.isEmpty()) {

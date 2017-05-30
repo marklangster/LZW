@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LZWCompress {
-    private static final int ASCII_TABLE_INCREMENT_CONSTANT = 65; //static value used to populate our library
+    private static final int ASCII_TABLE_INCREMENT_CONSTANT = 65; //static value used to populate our HashMap
     // with ASCII table values.
 
     Map<String, Byte> encoderLibrary; //HashMap for storage. Since we are encoding, the String value is our key.
