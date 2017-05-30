@@ -2,28 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="525e2a2a-609b-4c9b-b8d6-6266d9169657" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/classes/main/com/marklanger/lzw_compressor/LZWCompress.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/classes/main/com/marklanger/lzw_compressor/LZWDecompress.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/classes/test/com/marklanger/lzw_compressor/LZWCompressTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/classes/test/com/marklanger/lzw_compressor/LZWDecompressTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/classes/test/com/marklanger/lzw_compressor/LZWFullCompressionTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/libs/lzwcompression-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/classes/com.marklanger.lzw_compressor.LZWCompressTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/classes/com.marklanger.lzw_compressor.LZWDecompressTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/classes/com.marklanger.lzw_compressor.LZWFullCompressionTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/css/base-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/js/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/packages/com.marklanger.lzw_compressor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/test-results/test/TEST-com.marklanger.lzw_compressor.LZWCompressTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/test-results/test/TEST-com.marklanger.lzw_compressor.LZWDecompressTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/test-results/test/TEST-com.marklanger.lzw_compressor.LZWFullCompressionTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/test-results/test/binary/output.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/test-results/test/binary/output.bin.idx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/test-results/test/binary/results.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lzwcompression/build/tmp/jar/MANIFEST.MF" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/build/classes/test/com/marklanger/lzw_compressor/LZWFullCompressionTest.class" afterPath="$PROJECT_DIR$/lzwcompression/build/classes/test/com/marklanger/lzw_compressor/LZWFullCompressionTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/lzwcompression/build/test-results/test/binary/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/lzwcompression/build/test-results/test/binary/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/lzwcompression/build/test-results/test/binary/results.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/classes/com.marklanger.lzw_compressor.LZWCompressTest.html" afterPath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/classes/com.marklanger.lzw_compressor.LZWCompressTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/classes/com.marklanger.lzw_compressor.LZWDecompressTest.html" afterPath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/classes/com.marklanger.lzw_compressor.LZWDecompressTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/classes/com.marklanger.lzw_compressor.LZWFullCompressionTest.html" afterPath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/classes/com.marklanger.lzw_compressor.LZWFullCompressionTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/packages/com.marklanger.lzw_compressor.html" afterPath="$PROJECT_DIR$/lzwcompression/build/reports/tests/test/packages/com.marklanger.lzw_compressor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/build/test-results/test/TEST-com.marklanger.lzw_compressor.LZWCompressTest.xml" afterPath="$PROJECT_DIR$/lzwcompression/build/test-results/test/TEST-com.marklanger.lzw_compressor.LZWCompressTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/build/test-results/test/TEST-com.marklanger.lzw_compressor.LZWDecompressTest.xml" afterPath="$PROJECT_DIR$/lzwcompression/build/test-results/test/TEST-com.marklanger.lzw_compressor.LZWDecompressTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/build/test-results/test/TEST-com.marklanger.lzw_compressor.LZWFullCompressionTest.xml" afterPath="$PROJECT_DIR$/lzwcompression/build/test-results/test/TEST-com.marklanger.lzw_compressor.LZWFullCompressionTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/src/main/java/com/marklanger/lzw_compressor/LZWCompress.java" afterPath="$PROJECT_DIR$/lzwcompression/src/main/java/com/marklanger/lzw_compressor/LZWCompress.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/src/main/java/com/marklanger/lzw_compressor/LZWDecompress.java" afterPath="$PROJECT_DIR$/lzwcompression/src/main/java/com/marklanger/lzw_compressor/LZWDecompress.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/src/test/java/com/marklanger/lzw_compressor/LZWCompressTest.java" afterPath="$PROJECT_DIR$/lzwcompression/src/test/java/com/marklanger/lzw_compressor/LZWCompressTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/src/test/java/com/marklanger/lzw_compressor/LZWDecompressTest.java" afterPath="$PROJECT_DIR$/lzwcompression/src/test/java/com/marklanger/lzw_compressor/LZWDecompressTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lzwcompression/src/test/java/com/marklanger/lzw_compressor/LZWFullCompressionTest.java" afterPath="$PROJECT_DIR$/lzwcompression/src/test/java/com/marklanger/lzw_compressor/LZWFullCompressionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -79,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/lzwcompression/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <marker date="1496145846000" expanded="true" signature="120:227" ph="{...}" />
               </folding>
@@ -91,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/lzwcompression/src/main/java/com/marklanger/lzw_compressor/LZWCompress.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="381">
-              <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="90" />
+              <caret line="48" column="52" lean-forward="false" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,8 +117,8 @@
       <file leaf-file-name="LZWDecompress.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lzwcompression/src/main/java/com/marklanger/lzw_compressor/LZWDecompress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+            <state relative-caret-position="291">
+              <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#556#564#0" expanded="true" />
@@ -611,11 +616,11 @@
         <option value="$PROJECT_DIR$/lzwcompression/README.md" />
         <option value="$PROJECT_DIR$/lzwcompression/build.gradle" />
         <option value="$PROJECT_DIR$/lzwcompression/src/main/java/com/marklanger/lzw_compressor/LZWCompress.java" />
-        <option value="$PROJECT_DIR$/lzwcompression/src/main/java/com/marklanger/lzw_compressor/LZWDecompress.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/lzwcompression/src/test/java/com/marklanger/lzw_compressor/LZWDecompressTest.java" />
         <option value="$PROJECT_DIR$/lzwcompression/src/test/java/com/marklanger/lzw_compressor/LZWCompressTest.java" />
         <option value="$PROJECT_DIR$/lzwcompression/src/test/java/com/marklanger/lzw_compressor/LZWFullCompressionTest.java" />
+        <option value="$PROJECT_DIR$/lzwcompression/src/main/java/com/marklanger/lzw_compressor/LZWDecompress.java" />
       </list>
     </option>
   </component>
@@ -734,24 +739,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lzwcompression" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LZW Compression" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LZW Compression" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="gradle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -771,24 +758,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LZW Compression" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LZW Compression" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1328,7 +1297,7 @@
     <entry file="file://$PROJECT_DIR$/lzwcompression/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <marker date="1496145846000" expanded="true" signature="120:227" ph="{...}" />
           </folding>
@@ -1338,7 +1307,7 @@
     <entry file="file://$PROJECT_DIR$/lzwcompression/src/main/java/com/marklanger/lzw_compressor/LZWCompress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
-          <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="90" />
+          <caret line="48" column="52" lean-forward="false" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1387,8 +1356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lzwcompression/src/main/java/com/marklanger/lzw_compressor/LZWDecompress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        <state relative-caret-position="291">
+          <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#556#564#0" expanded="true" />

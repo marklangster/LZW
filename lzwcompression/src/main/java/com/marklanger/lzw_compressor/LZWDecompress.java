@@ -36,7 +36,8 @@ public class LZWDecompress {
                 // we add it to our output.
                 valueStr.append(decoderLibrary.get(encodedValue));
                 decompressedOutput.append(decoderLibrary.get(encodedValue));
-            } else {
+            } else { //If we do not have the encoded value, we assume the decoder
+                // is a step behind the compresser and we correct.
                 valueStr.append(previouslyCheckedStr + String.valueOf(previouslyCheckedStr.charAt(0)));
                 decompressedOutput.append(valueStr);
             }
